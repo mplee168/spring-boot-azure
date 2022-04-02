@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("welcome")
 	String welcome() {
-		return "Welcome to another app service test ...";
+		return "Welcome to another app service test ... from github";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
